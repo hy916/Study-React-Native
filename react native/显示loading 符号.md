@@ -1,10 +1,12 @@
 # ActivityIndicator
 
-显示一个圆形的 loading 提示符号。
+显示一个圆形的 `loading` 提示符号。
 
 **用法：**
 
 ```js
+
+import { ActivityIndicator } from 'react-native';
 
   <ActivityIndicator size="large" color="#0000ff" />
 
@@ -24,6 +26,6 @@
 
 指示器的大小，默认为'small'。目前只能在 Android 上设定具体的数值。
 
-## hidesWhenStopped
+## hidesWhenStopped（iOS）
 
-在 animating 为 false 的时候，是否要隐藏指示器（默认为 true）。如果animating和hidesWhenStopped都为 false，则显示一个静止的指示器。（iOS平台使用）
+在 `animating` 为 false 的时候，是否要隐藏指示器（默认为 true）。如果`animating`和`hidesWhenStopped`都为 false，则显示一个静止的指示器。
